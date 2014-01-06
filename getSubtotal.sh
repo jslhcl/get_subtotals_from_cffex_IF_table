@@ -10,8 +10,9 @@ else
 	lstrDate=$(date +%Y%m/%d)	# today
 fi
 
-ofName=$(sed 's/\///' <<< $lstrDate)
-ofName="$ofName.txt"
+#ofName=$(sed 's/\///' <<< $lstrDate)
+#ofName="$ofName.txt"
+ofName="result.txt"
 
 url="http://www.cffex.com.cn/fzjy/ccpm/$lstrDate/index.xml"
 
